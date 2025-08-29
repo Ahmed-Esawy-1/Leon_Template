@@ -1,883 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-    <!-- Font Awesome Library -->
-    <link rel="stylesheet" href="css/all.min.css">
-    <!-- Normalize -->
-    <link rel="stylesheet" href="css/normalize.css">
-    <!-- Main Css -->
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <header>
-        <div class="container">
-            <h3>El3sawy</h3>
-            <ul>
-                <li><a href="#articles">Articles</a></li>
-                <li><a href="#gallery">Gallery</a></li>
-                <li><a href="#features">Features</a></li>
-                <li class="other-linkes">
-                    Other Linkes
-                    <div class="mega-menu">
-                        <div class="img-box">
-                            <img src="images/megamenu.png" alt="">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Leon</title>
+        <!-- Render All Elements Normally -->
+        <link rel="stylesheet" href="css/normalize.css" />
+        <!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+        <!-- Font Awesome Library -->
+        <link rel="stylesheet" href="css/all.min.css" />
+
+        <link rel="stylesheet" href="css/leon.css" />
+        <style>
+            
+        </style>
+        
+    </head>
+    <body>
+
+        <header>
+            <div class="container">
+                <img class="logo" src="images/logo.png" alt="logo">
+                <div class="links">
+                    <i class="fa-solid fa-bars fa-2xl" style="color: #10cab7"></i>
+                    <ul>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <!-- End Header -->
+        <!-- Start Landing Section -->
+        <div class="landing">
+            <div class="intro-text">
+                <h1>Hello There!</h1>
+                <p>We are Leon - Super Creative & Minimal Agency Web Template</p>
+            </div>
+        </div>
+        <!-- End Landing Section -->
+        <!-- Start Features -->
+        <div class="features">
+                <div class="container">
+                    <div class="feat">
+                        <i class="fas fa-wand-magic-sparkles fa-3x"></i>
+                        <h3>Tell Us Your Idea</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quidem deserunt nesciunt neque minus optio dicta voluptatibus culpa pariatur, quis molestias modi? Illo atque quo facere quisquam ex consectetur minus.</p>
+                    </div>
+                    <div class="feat">
+                        <i class="far fa-gem fa-3x"></i>
+                        <h3>We Will Do All The Work</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quidem deserunt nesciunt neque minus optio dicta voluptatibus culpa pariatur, quis molestias modi? Illo atque quo facere quisquam ex consectetur minus.</p>
+                    </div>
+                    <div class="feat">
+                        <i class="fas fa-earth-africa fa-3x"></i>
+                        <h3>Your Product Is WorldWide</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quidem deserunt nesciunt neque minus optio dicta voluptatibus culpa pariatur, quis molestias modi? Illo atque quo facere quisquam ex consectetur minus.</p>
+                    </div>
+                </div>
+        </div>
+        <!-- End Features -->
+        <!-- Start Services -->
+        <section id="services" >
+            <div class="container">
+                <h2 class="special-heading">Services</h2>
+                <p>Don't be busy, be productive</p>
+                <div class="services-content">
+                    <div class="col">
+                        <!-- start 2 service -->
+                        <div class="service">
+                            <i class="fas fa-palette fa-2x"></i>
+                            <div class="text">
+                                <h3>Graphic Design</h3>
+                                <p>Graphic Design is the process of visual communication and problem-solving using one or more of typography photography and illustration.</p>
+                            </div>
                         </div>
-                        <ul>
-                            <li><a href="#testimonials"><i class="fa-regular fa-comments"></i>Testimonials</a></li>
-                            <li><a href="#events"><i class="fa-regular fa-calendar-days"></i>Events</a></li>
-                            <li><a href="#members"><i class="fa-regular fa-user"></i>Team Members</a></li>
-                            <li><a href="#pricing"><i class="fa-regular fa-calendar"></i>Pricing Plans</a></li>
-                            <li><a href="#services"><i class="fa-solid fa-list-ul"></i>Services</a></li>
-                            <li><a href="#videos"><i class="fa-regular fa-circle-play"></i>Top Videoes</a></li>
-                            <li><a href="#skills"><i class="fa-regular fa-circle-check"></i>Our Skills</a></li>
-                            <li><a href="#stats"><i class="fa-solid fa-chart-line"></i>State</a></li>
-                            <li><a href="#work"><i class="fa-regular fa-calendar"></i>How It Works</a></li>
-                            <li><a href="#discount"><i class="fa-regular fa-percent"></i>Request A Discount</a></li>
-                        </ul>
+                        <div class="service">
+                            <i class="fa-solid fa-sliders fa-2x"></i>
+                            <div class="text">
+                                <h3>UI & UX</h3>
+                                <p>Process of enhancing user staisfaction with a product by improving the usability, accessbility, and pleasure provided in the interaction.</p>
+                            </div>
+                        </div>
+                        <!-- End 2 service -->
                     </div>
-                </li>
-            </ul>
-        </div>
-    </header>
-    <!-- End Header -->
-    <!-- Start landing -->
-    <div class="landing">
-        <div class="container">
-            <div class="text">
-                <h3>Welcome To El3sawy World</h3>
-                <p>Here learn gonna share everything about my life.
-                    Books Iam reading Games Iam playing Stories and Events
-                </p>
-            </div>
-            <div class="img">
-                <img src="images/landing-image.png" alt="">
-            </div>
-        </div>
-        <div class="div">
-            <i class="fa-solid fa-angles-down"></i>
-        </div>
-    </div>
-    <!-- End Landing -->
-    <!-- Start Articles -->
-    <section class="articles" id="articles">
-        <div class="heading">
-            Articles
-        </div>
-        <div class="container">
-            <div class="cards-box">
-                <div class="card">
-                    <img src="images/article1.jpg" alt="">
-                    <div class="card-body">
-                        <h4>Test Title</h4>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum facilis consequuntur, ratione explicabo quis maxime?</p>
+                    <div class="col">
+                        <!-- start 2 service -->
+                        <div class="service">
+                            <i class="fas fa-vector-square fa-2x"></i>
+                            <div class="text">
+                                <h3>Web Design</h3>
+                                <p>Web design encompasses many different skills and disciplines in the production and maintenance of websites.</p>
+                            </div>
+                        </div>
+                        <div class="service">
+                            <i class="fas fa-pencil-ruler fa-2x"></i>
+                            <div class="text">
+                                <h3>Web Development</h3>
+                                <p>Web development is a broad term fot the work involved in developing a web site for the internet or an intranet</p>
+                            </div>
+                        </div>
+                        <!-- End service -->
                     </div>
-                    <div class="card-footer">
-                        <span>Read More</span>
-                        <i class="fa-solid fa-arrow-right"></i>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="images/article2.jpg" alt="">
-                    <div class="card-body">
-                        <h4>Test Title</h4>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum facilis consequuntur, ratione explicabo quis maxime?</p>
-                    </div>
-                    <div class="card-footer">
-                        <span>Read More</span>
-                        <i class="fa-solid fa-arrow-right"></i>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="images/article3.jpg" alt="">
-                    <div class="card-body">
-                        <h4>Test Title</h4>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum facilis consequuntur, ratione explicabo quis maxime?</p>
-                    </div>
-                    <div class="card-footer">
-                        <span>Read More</span>
-                        <i class="fa-solid fa-arrow-right"></i>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="images/article4.jpg" alt="">
-                    <div class="card-body">
-                        <h4>Test Title</h4>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum facilis consequuntur, ratione explicabo quis maxime?</p>
-                    </div>
-                    <div class="card-footer">
-                        <span>Read More</span>
-                        <i class="fa-solid fa-arrow-right"></i>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="images/article5.jpg" alt="">
-                    <div class="card-body">
-                        <h4>Test Title</h4>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum facilis consequuntur, ratione explicabo quis maxime?</p>
-                    </div>
-                    <div class="card-footer">
-                        <span>Read More</span>
-                        <i class="fa-solid fa-arrow-right"></i>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="images/article6.jpg" alt="">
-                    <div class="card-body">
-                        <h4>Test Title</h4>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum facilis consequuntur, ratione explicabo quis maxime?</p>
-                    </div>
-                    <div class="card-footer">
-                        <span>Read More</span>
-                        <i class="fa-solid fa-arrow-right"></i>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="images/article7.jpg" alt="">
-                    <div class="card-body">
-                        <h4>Test Title</h4>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum facilis consequuntur, ratione explicabo quis maxime?</p>
-                    </div>
-                    <div class="card-footer">
-                        <span>Read More</span>
-                        <i class="fa-solid fa-arrow-right"></i>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="images/article8.jpg" alt="">
-                    <div class="card-body">
-                        <h4>Test Title</h4>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum facilis consequuntur, ratione explicabo quis maxime?</p>
-                    </div>
-                    <div class="card-footer">
-                        <span>Read More</span>
-                        <i class="fa-solid fa-arrow-right"></i>
+                    <div class="col">
+                        <div class="image img-service">
+                            <img class="img" src="images/serviceimg.webp" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- End Articles -->
-    <!-- Start Gallery -->
-    <section class="gallery" id="gallery">
-        <div class="heading">Gallery</div>
-        <div class="container">
-            <div class="img-box">
-                <img src="images/gallery-01.png" alt="">
-            </div>
-            <div class="img-box">
-                <img src="images/gallery-02.png" alt="">
-            </div>
-            <div class="img-box">
-                <img src="images/gallery-03.jpg" alt="">
-            </div>
-            <div class="img-box">
-                <img src="images/gallery-04.png" alt="">
-            </div>
-            <div class="img-box">
-                <img src="images/gallery-05.jpg" alt="">
-            </div>
-            <div class="img-box">
-                <img src="images/gallery-06.png" alt="">
-            </div>
-        </div>
-    </section>
-    <!-- End Gallery -->
-    <!-- Start Features -->
-    <section class="features" id="features">
-        <div class="heading">Features</div>
-        <div class="container">
-            <div class="card">
-                <div class="img-box">
-                    <img src="images/features1.jpg" alt="features1 picture">
-                </div>
-                <div class="card-body">
-                    <h3>Quality</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia alias architecto unde nam officia quis nihil quidem.</p>
-                    <a href="">More</a>
-                </div>
-            </div>
-            <div class="card">
-                <div class="img-box">
-                    <img src="images/features2.jpg" alt="features2 picture">
-                </div>
-                <div class="card-body">
-                    <h3>Time</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia alias architecto unde nam officia quis nihil quidem.</p>
-                    <a href="">More</a>
-                </div>
-            </div>
-            <div class="card">
-                <div class="img-box">
-                    <img src="images/features3.jpg" alt="features3 picture">
-                </div>
-                <div class="card-body">
-                    <h3>Passion</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia alias architecto unde nam officia quis nihil quidem.</p>
-                    <a href="">More</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End Features -->
-    <!-- Start Testimonials --> 
-    <div id="testimonials">
-        <div class="heading">
-            Testimonials
-        </div>
-        <div class="container">
-            <div class="card">
-                <div class="img-box">
-                    <img src="images/avatar1.png" alt="">
-                </div>
-                <div class="card-body">
-                    <h3>Mohamed Farag</h3>
-                    <p>Full Stack Developer</p>
-                    <div class="stars">
-                        <span><i class="fa-solid fa-star"></i></span>
-                        <span><i class="fa-solid fa-star"></i></span>
-                        <span><i class="fa-solid fa-star"></i></span>
-                        <span><i class="fa-solid fa-star"></i></span>
-                        <span><i class="fa-regular fa-star"></i></span>
+        </section>
+        <!-- End Services -->
+        <!-- Start Portfolio -->
+        <section id="portfolio">
+            <div class="container">
+                <h2 class="special-heading">Portfolio</h2>
+                <p>If you do it right, it will last forever.</p>
+                <div class="portfolio-content">
+                    <div class="card">
+                        <img src="images/OIP (1).webp" alt="">
+                        <div class="info">
+                            <h3>Project More</h3>
+                            <p>My creative ability is very difficultto measure because it can manifest in so many surprising and.</p>
+                        </div>
                     </div>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa expedita vero quis labore cumque! Necessitatibus ab vitae numquam accusamus deleniti?</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="img-box">
-                    <img src="images/avatar2.png" alt="">
-                </div>
-                <div class="card-body">
-                    <h3>Mohamed Farag</h3>
-                    <p>Full Stack Developer</p>
-                    <div class="stars">
-                        <span><i class="fa-solid fa-star"></i></span>
-                        <span><i class="fa-solid fa-star"></i></span>
-                        <span><i class="fa-solid fa-star"></i></span>
-                        <span><i class="fa-solid fa-star"></i></span>
-                        <span><i class="fa-regular fa-star"></i></span>
+                    <div class="card">
+                        <img src="images/OIP (2).webp" alt="">
+                        <div class="info">
+                            <h3>Project More</h3>
+                            <p>My creative ability is very difficultto measure because it can manifest in so many surprising and.</p>
+                        </div>
                     </div>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa expedita vero quis labore cumque! Necessitatibus ab vitae numquam accusamus deleniti?</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="img-box">
-                    <img src="images/avatar3.png" alt="">
-                </div>
-                <div class="card-body">
-                    <h3>Mohamed Farag</h3>
-                    <p>Full Stack Developer</p>
-                    <div class="stars">
-                        <span><i class="fa-solid fa-star"></i></span>
-                        <span><i class="fa-solid fa-star"></i></span>
-                        <span><i class="fa-solid fa-star"></i></span>
-                        <span><i class="fa-solid fa-star"></i></span>
-                        <span><i class="fa-regular fa-star"></i></span>
-                    </div>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa expedita vero quis labore cumque! Necessitatibus ab vitae numquam accusamus deleniti?</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="img-box">
-                    <img src="images/avatar4.png" alt="">
-                </div>
-                <div class="card-body">
-                    <h3>Mohamed Farag</h3>
-                    <p>Full Stack Developer</p>
-                    <div class="stars">
-                        <span><i class="fa-solid fa-star"></i></span>
-                        <span><i class="fa-solid fa-star"></i></span>
-                        <span><i class="fa-solid fa-star"></i></span>
-                        <span><i class="fa-solid fa-star"></i></span>
-                        <span><i class="fa-regular fa-star"></i></span>
-                    </div>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa expedita vero quis labore cumque! Necessitatibus ab vitae numquam accusamus deleniti?</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="img-box">
-                    <img src="images/avatar5.png" alt="">
-                </div>
-                <div class="card-body">
-                    <h3>Mohamed Farag</h3>
-                    <p>Full Stack Developer</p>
-                    <div class="stars">
-                        <span><i class="fa-solid fa-star"></i></span>
-                        <span><i class="fa-solid fa-star"></i></span>
-                        <span><i class="fa-solid fa-star"></i></span>
-                        <span><i class="fa-solid fa-star"></i></span>
-                        <span><i class="fa-regular fa-star"></i></span>
-                    </div>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa expedita vero quis labore cumque! Necessitatibus ab vitae numquam accusamus deleniti?</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="img-box">
-                    <img src="images/avatar6.png" alt="">
-                </div>
-                <div class="card-body">
-                    <h3>Mohamed Farag</h3>
-                    <p>Full Stack Developer</p>
-                    <div class="stars">
-                        <span><i class="fa-solid fa-star"></i></span>
-                        <span><i class="fa-solid fa-star"></i></span>
-                        <span><i class="fa-solid fa-star"></i></span>
-                        <span><i class="fa-solid fa-star"></i></span>
-                        <span><i class="fa-regular fa-star"></i></span>
-                    </div>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa expedita vero quis labore cumque! Necessitatibus ab vitae numquam accusamus deleniti?</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Testimonials -->
-    <!-- Start Team Members -->
-    <section id="members">
-        <div class="heading">
-            Team Members
-        </div>
-        <div class="container">
-            <div class="card">
-                <div class="img-box">
-                    <img src="images/team1.jpg" alt="">
-                    <ul>
-                        <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
-                        <li><a href=""><i class="fa-brands fa-x-twitter"></i></a></li>
-                        <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
-                        <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
-                    </ul>
-                </div>
-                <div class="card-body">
-                    <h4>Name</h4>
-                    <p>Simple Short Description</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="img-box">
-                    <img src="images/team2.jpg" alt="">
-                    <ul>
-                        <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
-                        <li><a href=""><i class="fa-brands fa-x-twitter"></i></a></li>
-                        <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
-                        <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
-                    </ul>
-                </div>
-                <div class="card-body">
-                    <h4>Name</h4>
-                    <p>Simple Short Description</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="img-box">
-                    <img src="images/team3.jpg" alt="">
-                    <ul>
-                        <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
-                        <li><a href=""><i class="fa-brands fa-x-twitter"></i></a></li>
-                        <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
-                        <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
-                    </ul>
-                </div>
-                <div class="card-body">
-                    <h4>Name</h4>
-                    <p>Simple Short Description</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="img-box">
-                    <img src="images/team4.jpg" alt="">
-                    <ul>
-                        <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
-                        <li><a href=""><i class="fa-brands fa-x-twitter"></i></a></li>
-                        <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
-                        <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
-                    </ul>
-                </div>
-                <div class="card-body">
-                    <h4>Name</h4>
-                    <p>Simple Short Description</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="img-box">
-                    <img src="images/team5.png" alt="">
-                    <ul>
-                        <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
-                        <li><a href=""><i class="fa-brands fa-x-twitter"></i></a></li>
-                        <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
-                        <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
-                    </ul>
-                </div>
-                <div class="card-body">
-                    <h4>Name</h4>
-                    <p>Simple Short Description</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="img-box">
-                    <img src="images/team6.png" alt="">
-                    <ul>
-                        <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
-                        <li><a href=""><i class="fa-brands fa-x-twitter"></i></a></li>
-                        <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
-                        <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
-                    </ul>
-                </div>
-                <div class="card-body">
-                    <h4>Name</h4>
-                    <p>Simple Short Description</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="img-box">
-                    <img src="images/team7.jpg" alt="">
-                    <ul>
-                        <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
-                        <li><a href=""><i class="fa-brands fa-x-twitter"></i></a></li>
-                        <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
-                        <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
-                    </ul>
-                </div>
-                <div class="card-body">
-                    <h4>Name</h4>
-                    <p>Simple Short Description</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="img-box">
-                    <img src="images/team8.jpg" alt="">
-                    <ul>
-                        <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
-                        <li><a href=""><i class="fa-brands fa-x-twitter"></i></a></li>
-                        <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
-                        <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
-                    </ul>
-                </div>
-                <div class="card-body">
-                    <h4>Name</h4>
-                    <p>Simple Short Description</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End Team Members -->
-    <!-- Strat Services -->
-    <section id="services">
-        <div class="heading">
-            Services
-        </div>
-        <div class="container">
-            <div class="card">
-                <i class="fa-solid fa-user-shield"></i>
-                <h4>Security</h4>
-                <div class="card-footer">
-                    <span>01</span>
-                    <span>Defaults</span>
-                </div>
-            </div>
-            <div class="card">
-                <i class="fa-solid fa-screwdriver-wrench"></i>
-                <h4>Fixing Issues</h4>
-                <div class="card-footer">
-                    <span>02</span>
-                    <span>Defaults</span>
-                </div>
-            </div>
-            <div class="card">
-                <i class="fa-solid fa-map-location-dot"></i>
-                <h4>Location</h4>
-                <div class="card-footer">
-                    <span>03</span>
-                    <span>Defaults</span>
-                </div>
-            </div>
-            <div class="card">
-                <i class="fa-solid fa-laptop-code"></i>
-                <h4>Coding</h4>
-                <div class="card-footer">
-                    <span>04</span>
-                    <span>Defaults</span>
-                </div>
-            </div>
-            <div class="card">
-                <i class="fa-solid fa-palette"></i>
-                <h4>Portfolio</h4>
-                <div class="card-footer">
-                    <span>05</span>
-                    <span>Defaults</span>
-                </div>
-            </div>
-            <div class="card">
-                <i class="fa-solid fa-bullhorn"></i>
-                <h4>Marketing</h4>
-                <div class="card-footer">
-                    <span>06</span>
-                    <span>Defaults</span>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End Services -->
-    <!-- Start Skills -->
-    <section id="skills">
-        <div class="heading">
-            Our Skills
-        </div>
-        <div class="container">
-            <div class="img-box">
-                <img src="images/skills.png" alt="skill images">
-            </div>
-            <div class="our-skills">
-                <div class="skill-box">
-                    <h4>Html</h4>
-                    <div class="progress">
-                        <span style="width: 82%;" data-prog="82%"></span>
+                    <div class="card">
+                        <img src="images/OIP.webp" alt="">
+                        <div class="info">
+                            <h3>Project More</h3>
+                            <p>My creative ability is very difficultto measure because it can manifest in so many surprising and.</p>
+                        </div>
                     </div>
                 </div>
-                <div class="skill-box">
-                    <h4>Css</h4>
-                    <div class="progress">
-                        <span style="width: 90%;" data-prog="90%"></span>
-                    </div>
+                <div class="btn">
+                    <button>More</button>
                 </div>
-                <div class="skill-box">
-                    <h4>Javascript</h4>
-                    <div class="progress">
-                        <span style="width: 67%;" data-prog="67%"></span>
+            </div>
+        </section>
+        <!-- End Portfolio -->
+        <!-- Start About -->
+        <section id="about">
+            <div class="container">
+                <h2 class="special-heading">About</h2>
+                <p>Less is more work</p>
+                <div class="about-content">
+                    <div class="image">
+                        <img src="images/work.jpg" alt="">
                     </div>
-                </div>
-                <div class="skill-box">
-                    <h4>Bootstrtap</h4>
-                    <div class="progress">
-                        <span style="width: 87%;" data-prog="87%"></span>
+                    <div class="text">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta eaque quas voluptate dolores vel velit sed, animi ratione quaerat reprehenderit?</p>
+                        <hr>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse cum, deleniti repellat qui labore ut eaque quas quibusdam odio perferendis excepturi animi eveniet consectetur voluptatem?</p>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- End Skills -->
-    <!-- Start How it Works -->
-    <section id="work">
-        <div class="heading">
-            How it works?
-        </div>
-        <div class="container">
-            <div class="img-box">
-                <img src="images/work-steps.png" alt="">
-            </div>
-            <div class="cards">
-                <div class="card">
-                    <img src="images/work-steps-1.png" alt="">
-                    <div class="card-body">
-                        <h4>Business Analysis</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ad, voluptatem quibusdam, nisi vero aliquid sit alias totam aliquam dolorem, nemo repellat dignissimos vel libero laborum adipisci!</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="images/work-steps-2.png" alt="">
-                    <div class="card-body">
-                        <h4>Architecture</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ad, voluptatem quibusdam, nisi vero aliquid sit alias totam aliquam dolorem, nemo repellat dignissimos vel libero laborum adipisci!</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="images/work-steps-3.png" alt="">
-                    <div class="card-body">
-                        <h4>Development</h4>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et reprehenderit rerum quo non perferendis. Corporis dolorem exercitationem aperiam est ipsum praesentium, reiciendis explicabo, consequatur enim asperiores eum quae illo dolorum!</p>
+        </section>
+        <!-- End About -->
+        <!-- Start Contact  -->
+        <section id="contact">
+            <div class="container">
+                <h2 class="special-heading">Contact</h2>
+                <p>We are born to create</p>
+                <div class="contact-content">
+                    <p>Feel free to drop us a line at:</p>
+                    <a href="#contact">ahmed12esawy@email.com</a>
+                    <div class="media">
+                        find us on social media:
+                        <i class="fa-brands fa-facebook fa-xl"></i>
+                        <i class="fa-brands fa-instagram fa-xl"></i>
+                        <i class="fa-brands fa-twitter fa-xl"></i>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- End How it Works -->
-    <!-- Start Events -->
-    <section id="events">
-        <div class="heading">
-            Latest events
-        </div>
-        <div class="container">
-            <div class="img-box">
-                <img src="images/events.png" alt="event picture">
-            </div>
-            <div class="event-content">
-                <div class="time">
-                    <div>
-                        <p>15</p>
-                        <span>Days</span>
-                    </div>
-                    <div>
-                        <p>08</p>
-                        <span>Hours</span>
-                    </div>
-                    <div>
-                        <p>45</p>
-                        <span>Minutes</span>
-                    </div>
-                    <div>
-                        <p>55</p>
-                        <span>Seconds</span>
-                    </div>
-                </div>
-                <h3>Tech Masters Event 2025</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam reiciendis provident libero? Nam delectus voluptatem, nesciunt molestiae natus maiores odio ratione excepturi, placeat eveniet labore, id similique nobis?</p>
-            </div>
-        </div>
-        <form>
-            <input type="email" placeholder="Enter Your Email">
-            <input type="submit" value="Subscribe" />
-        </form>
-    </section>
-    <!-- End Events -->
-    <!-- Start Pricing  -->
-    <section id="pricing">
-        <div class="dots-top">
-            <img src="images/dots.png" alt="">
-        </div>
-        <div class="dots-bottom">
-            <img src="images/dots.png" alt="">
-        </div>
-        <div class="heading">
-            Pricing Plans
-        </div>
-        <div class="container">
-            <div class="card">
-                <div class="card-header">
-                    <h4>Basic</h4>
-                    <i class="fa-solid fa-database"></i>
-                    <p>$15</p>
-                    <p>Per Month</p>
-                </div>
-                <div class="card-body">
-                    <ul>
-                        <li>10GB HDD Space</li>
-                        <li>5 Email Address</li>
-                        <li>2 Subdomains</li>
-                        <li>4 Databases</li>
-                        <li>Basic Support</li>
-                    </ul>
-                    <a href="#">Choose Plan</a>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header">
-                    <div class="popular">Most Popular</div>
-                    <h4>Advanced</h4>
-                    <i class="fa-solid fa-database"></i>
-                    <p>$25</p>
-                    <p>Per Month</p>
-                </div>
-                <div class="card-body">
-                    <ul>
-                        <li>20GB HDD Space</li>
-                        <li>10 Email Address</li>
-                        <li>5 Subdomains</li>
-                        <li>8 Databases</li>
-                        <li>Advanced Support</li>
-                    </ul>
-                    <a href="#">Choose Plan</a>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header">
-                    <h4>Professional</h4>
-                    <i class="fa-solid fa-database"></i>
-                    <p>$45</p>
-                    <p>Per Month</p>
-                </div>
-                <div class="card-body">
-                    <ul>
-                        <li>50GB HDD Space</li>
-                        <li>20 Email Address</li>
-                        <li>10 Subdomains</li>
-                        <li>20 Databases</li>
-                        <li>Professional Support</li>
-                    </ul>
-                    <a href="#">Choose Plan</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End Pricing  -->
-    <!-- Start Videos -->
-    <section id="videos">
-        <div class="heading">
-            Top videos
-        </div>
-        <div class="container">
-            <div class="preview">
-                <div class="text">
-                    <h4>Top Video</h4>
-                    <i class="fa-solid fa-scissors fa-flip-horizontal"></i>
-                </div>
-                <ul>
-                    <li>
-                        <h4>How To Create Sub Domain</h4>
-                        <span>05:40</span>
-                    </li>
-                    <li>
-                        <h4>Playing With The DNS</h4>
-                        <span>05:40</span>
-                    </li>
-                    <li>
-                        <h4>Everything About The Virtual Hosts</h4>
-                        <span>05:40</span>
-                    </li>
-                    <li>
-                        <h4>Everything About The Virtual Hosts</h4>
-                        <span>05:40</span>
-                    </li>
-                    <li>
-                        <h4>Everything About The Virtual Hosts</h4>
-                        <span>05:40</span>
-                    </li>
-                    <li>
-                        <h4>Everything About The Virtual Hosts</h4>
-                        <span>05:40</span>
-                    </li>
-                    <li>
-                        <h4>Everything About The Virtual Hosts</h4>
-                        <span>05:40</span>
-                    </li>
-                </ul>
-            </div>
-            <div class="img-box">
-                <img src="images/video-preview.jpg" alt="">
-                <p>Everything About The Virtual Hosts</p>
-            </div>
-        </div>
-    </section>
-    <!-- End videos -->
-    <!-- Start Stats -->
-    <section id="stats">
-        <h2>
-            Our Awesome Stats
-        </h2>
-        <div class="container">
-            <div class="box">
-                <i class="fa-slab-press fa-regular fa-user"></i>
-                <h4>300</h4>
-                <i>Clients</i>
-            </div>
-            <div class="box">
-                <i class="fa-solid fa-code"></i>
-                <h4>400</h4>
-                <i>Projects</i>
-            </div>
-            <div class="box">
-                <i class="fa-solid fa-earth-africa"></i>
-                <h4>12</h4>
-                <i>Countries</i>
-            </div>
-            <div class="box">
-                <i class="fa-regular fa-money-bill-1"></i>
-                <h4>500K</h4>
-                <i>Money</i>
-            </div>
-        </div>
-    </section>
-    <!-- End Stats -->
-    <!-- Start Discount -->
-    <section id="discount">
-        <div class="text">
-            <h2>We Have A Discount</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo voluptatem tempore inventore consequatur ipsam! Sapiente labore in omnis dolorem nostrum!</p>
-            <div class="img-box"></div>
-            <img src="images/discount.png" alt="Discount Image">
-        </div>
-        <div class="request">
-            <h2>Request A Discount</h2>
-            <form action="">
-                <input type="text"  placeholder="Your Name" />
-                <input type="email" placeholder="Your Email" />
-                <input type="text" placeholder="Your Phone" />
-                <textarea placeholder="Tell Us About Your Needs"></textarea>
-                <input type="submit" value="Send">
-            </form>
-        </div>
-    </section>
-    <!-- End Discount -->
-    <!-- Start Footer  -->
-    <footer>
-        <div class="container">
-            <div class="box">
-                <h2>Esawy</h2>
-                <ul>
-                    <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
-                    <li><a href=""><i class="fa-brands fa-x-twitter"></i></a></li>
-                    <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
-                </ul>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, aperiam?</p>
-            </div>
-            <div class="box">
-                <ul>
-                    <li>
-                        <span>&NestedGreaterGreater;</span>
-                        <a href="">Important Link 1</a>
-                    </li>
-                    <li>
-                        <span>&NestedGreaterGreater;</span>
-                        <a href="">Important Link 2</a>
-                    </li>
-                    <li>
-                        <span>&NestedGreaterGreater;</span>
-                        <a href="">Important Link 3</a>
-                    </li>
-                    <li>
-                        <span>&NestedGreaterGreater;</span>
-                        <a href="">Important Link 4</a>
-                    </li>
-                    <li>
-                        <span>&NestedGreaterGreater;</span>
-                        <a href="">Important Link 5</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="box">
-                <div>
-                    <i class="fa-solid fa-location-dot"></i>
-                    <address>Egypt cairo Room Number 220</address>
-                </div>
-                <div>
-                    <i class="fa-regular fa-clock"></i>
-                    <p>Bussiness Hours: From 10:00 to 18:00</p>
-                </div>
-                <div>
-                    <i class="fa-solid fa-phone-volume"></i>
-                    <div>
-                        <p>+20123456709</p>
-                        <p>+20123423709</p>
-                    </div>
-                </div>
-            </div>
-            <div class="box">
-                <div class="img-box">
-                    <img src="images/gallery-04.png" alt="">
-                </div>
-                <div class="img-box">
-                    <img src="images/gallery-01.png" alt="">
-                </div>
-                <div class="img-box">
-                    <img src="images/gallery-03.jpg" alt="">
-                </div>
-                <div class="img-box">
-                    <img src="images/gallery-02.png" alt="">
-                </div>
-                <div class="img-box">
-                    <img src="images/gallery-06.png" alt="">
-                </div>
-                <div class="img-box">
-                    <img src="images/gallery-05.jpg" alt="">
-                </div>
-            </div>
-        </div>
-        <div>Make With <3 By esawy</div>
-    </footer>
-    <!-- End Footer  -->
-</body>
+        </section>
+        <!-- End Contact -->
+        <!-- Start Footer -->
+        <footer>
+            &copy; 2025 <span>Leon</span> All Right Reserved
+        </footer>
+        <!-- End Footer -->
+
+    </body>
 </html>
